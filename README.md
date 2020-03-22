@@ -1,4 +1,4 @@
-# My First Node App
+# Blog Node REST API
 
 ## Installation Dependencies
 

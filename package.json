@@ -1,5 +1,5 @@
 {
-  "name": "blogapo",
+  "name": "blogapi",
   "version": "1.0.0",
   "description": "Blog Node REST API",
   "main": "./src/index.js",
