@@ -1,7 +1,7 @@
 {
-  "name": "firstnodeapi",
+  "name": "blogapo",
   "version": "1.0.0",
-  "description": "First Node App",
+  "description": "Blog Node REST API",
   "main": "./src/index.js",
   "author": "Rodolfo Roman <rromanv@gmail.com>",
   "license": "MIT",
