@@ -19,6 +19,17 @@ const createTables = async () => {
         table.timestamp('updated').defaultTo(new Date().toLocaleString())
       })
     : null
+  !(await db.schema.hasTable('users'))
+    ? await db.schema.createTable('users', table => {
+        table.increments().primary()
+        table.string('uuid')
+        table.string('name')
+        table.string('email')
+        table.string('picture')
+        table.timestamp('created').defaultTo(new Date().toLocaleString())
+        table.timestamp('lastAccess').defaultTo(new Date().toLocaleString())
+      })
+    : null
 }
 
 createTables()
