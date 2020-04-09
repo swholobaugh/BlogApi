@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Blog Node REST API",
   "main": "./src/index.js",
-  "author": "Rodolfo Roman <rromanv@gmail.com>",
+  "author": "Seth Holobaugh <seth.holobaugh@gmail.com",
   "license": "MIT",
   "scripts": {
     "start": "node ./dist/index.js",
